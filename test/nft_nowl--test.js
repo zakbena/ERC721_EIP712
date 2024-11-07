@@ -17,7 +17,7 @@ const { network, deployments, ethers, getNamedAccounts } = require("hardhat");
       let maliciousKey = SignerWithAddress;
 
       const price = ethers.utils.parseEther("0.001");
-      const baseUri = "ipfs://QmR7M6cDNYyz8vnRdGd5nrjEknH9UuSmeEt6mBqXVu8Zer/";
+      const baseUri = "ipfs:///";
       const supply = "50";
 
       beforeEach(async function () {
